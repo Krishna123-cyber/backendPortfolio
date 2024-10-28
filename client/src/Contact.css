@@ -1,0 +1,79 @@
+/* style.css
+   Student Name: Krishna Kumar Mahato
+   Student ID: 301400726
+   Date: 28/26/2024
+*/
+
+.contact-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #6007c0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    color: #100e0e;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    min-height: 150px;
+    resize: none;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #ff6600;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #3bed6a;
+    color: rgb(236, 18, 18);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #16e064;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    input, textarea {
+      padding: 12px;
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  
